@@ -1,0 +1,49 @@
+Sumário Executivo — Identidade Visual AuditCom
+1. Visão Geral da Marca
+AuditCom é a marca de uma empresa de auditoria comercial, posicionada com o propósito de diagnosticar, organizar e acelerar resultados de operações comerciais. O tom de voz é técnico, confiável e orientado a performance, reforçado pelo tagline:
+
+"Diagnosticar. Organizar. Acelerar resultados."
+
+E pelo posicionamento estratégico usado em materiais de apresentação:
+
+"Transformamos sua operação comercial em uma máquina previsível de resultados."
+
+
+2. Logotipo e Símbolo
+O símbolo é um monograma abstrato que remete às letras "C" e "D" (Comercial/Diagnóstico), formando um desenho contínuo em forma de elo/circuito — sugerindo fluxo, conexão e ciclo de processos, coerente com a proposta de organizar e acelerar operações comerciais.
+
+Construção: duas formas em "C" espelhadas, unidas por uma barra diagonal central, criando uma leitura de continuidade e movimento.
+Aplicação tipográfica do nome: "Audit" em branco/escuro (dependendo do fundo) + "Com" em verde-turquesa, com o subtítulo "AUDITORIA COMERCIAL" em caixa alta e letter-spacing amplo, reforçando o caráter institucional.
+
+Versões entregues:
+
+Versão horizontal (símbolo + nome lado a lado)
+Versão vertical (símbolo sobre o nome)
+Símbolo isolado (para favicon, redes sociais, ícones)
+Versão monocromática (aplicações em preto e branco / gravações)
+Aplicação em fundo claro
+Aplicação em fundo escuro
+
+
+3. Paleta de Cores
+CorHexUsoAzul-marinho profundo#0B1D2AFundo institucional principalAzul petróleo#0E3D47Fundo secundário / gradientesVerde-turquesa (cor de destaque)#00A878Cor de assinatura da marca, símbolo e "Com"Dourado/mostarda#C89D5BCor de apoio, detalhes premiumCinza-chumbo#2B3137Textos escuros, elementos neutrosCinza médio#8A9096Textos secundáriosBranco#FFFFFFContraste, fundo claro, textos sobre fundo escuro
+A paleta transmite seriedade, tecnologia e sofisticação corporativa, com o verde funcionando como cor de destaque (crescimento, resultado, "sinal verde").
+
+4. Tipografia
+
+Fonte: Montserrat
+Pesos utilizados: Regular, Medium, Semibold
+Fonte geométrica sans-serif, alta legibilidade, perfil moderno e corporativo — adequada tanto para títulos quanto para textos de apoio.
+
+
+5. Aplicações da Marca (Brand Collateral)
+O material entregue demonstra a marca em contextos reais de uso:
+
+Cartão de visita — versão fundo escuro com QR/detalhes de contato (ex.: Diretor Executivo), demonstrando aplicação em papelaria corporativa.
+Fachada/sinalização externa — logo aplicada em fachada de prédio corporativo, testando legibilidade em ambiente físico e iluminação noturna.
+Slide/apresentação institucional — uso da marca em contexto de pitch/reunião, com gráfico de crescimento e mensagem de posicionamento, indicando aplicação em materiais comerciais e de vendas.
+Peça 3D/sinalização volumétrica — símbolo em letra caixa/relevo, para uso em ambientes físicos (recepção, sede).
+
+
+6. Conclusão
+O manual de marca da AuditCom entrega um sistema visual completo e coeso: símbolo com significado conceitual (conexão/fluxo/ciclo), paleta sóbria com destaque em verde para transmitir crescimento e confiabilidade, tipografia moderna (Montserrat) e um conjunto robusto de aplicações (papelaria, fachada, apresentações e sinalização física) que garantem consistência da marca em qualquer ponto de contato — digital ou físico.
