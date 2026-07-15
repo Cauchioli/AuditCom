@@ -1,28 +1,22 @@
 # Contexto do Projeto — AuditCom
 
 ## Visão Geral
-Empresa de Auditoria Comercial B2B focada em identificar gargalos, priorizar ações e implantar melhorias na performance de vendas de pequenas e médias empresas.
+A AuditCom é uma empresa de auditoria e conformidade comercial focada em diagnosticar riscos, identificar vazamentos financeiros e quantificar a maturidade de processos em operações B2B. O posicionamento é estritamente de auditoria técnica e governança, distanciando-se do modelo tradicional de consultorias de vendas baseado em opiniões subjetivas.
 
-## Problema
-As pequenas e médias empresas (faturamento entre R$ 150k e R$ 300k/mês) sofrem com falhas estruturais em vendas, processos e pessoas. Os sintomas mais comuns mapeados:
-- **Desperdício Financeiro:** Empresas pagam valores absurdos (ex: R$ 689 por reunião agendada) devido a processos de aquisição ineficientes.
-- **Disfunção Comercial:** Falta de entendimento sobre os papéis de SDR, closer, MDR e CS. Contratos de terceirização de vendas que vendem expectativas irreais para entregas fracas ("venda Disney para entrega de parquinho").
-- **Subutilização de Recursos:** Vendedores divididos entre múltiplos clientes (ex: 25% de dedicação por conta), comprometendo a performance e gerando baixa conversão.
-- **Teto de Faturamento:** Empresas estagnadas, limitadas a processos comerciais manuais ou vendedores ineficientes, mesmo com capacidade ociosa de entrega ou produção.
+## O Problema
+Empresas que faturam entre R$ 150k e R$ 300k/mês operam no escuro em relação às suas perdas comerciais. Os principais riscos identificados na auditoria são:
+- **Risco de Aquisição (Vazamento de Caixa):** Empresas contratam prospecção ativa de forma ineficiente (SDRs terceirizados com foco em volume, não em fit). leads frios geram reuniões vazias com custo de aquisição altíssimo.
+- **Risco de Condução (Baixa Eficiência):** Falta de padronização, de governança sobre reuniões de fechamento e de conformidade no contorno de objeções, gerando desvantagem em relação a concorrentes.
+- **Risco de Gestão (Informalidade):** CRM desconfigurado, métricas maquiadas por vendedores passivos e ausência de relatórios executivos precisos para tomada de decisão.
+- **Risco de Transição (Churn Precoce):** Passagem de bastão ineficiente para Customer Success, resultando em insatisfação e cancelamentos antes do retorno do CAC.
 
-## Solução
-A AuditCom atua como uma empresa de auditoria de performance e processos comerciais. O modelo de entrega é baseado em diagnóstico rápido e prescrição prática ("receita médica"):
-- **Sprint Curto:** Um produto de faturamento rápido (ticket médio de R$ 3.500 a R$ 9.000) de rápida execução, sem necessidade de braço operacional pesado.
-- **Estrutura Departamentada:** O cliente recebe manuais específicos e focados em vez de um único PDF genérico e denso.
-- **Quick Wins:** Entregáveis focados em ações de impacto prático nos primeiros 7 dias.
+## A Solução: Auditoria Executiva
+Realizamos um diagnóstico técnico rigoroso da operação comercial em 7 dias para mapear gargalos e quantificar a maturidade de processos:
+- **Framework AuditCom™:** Mapeamento técnico estruturado sobre 4 pilares: Pipeline, Condução Comercial, Gestão Comercial e Customer Success.
+- **Evidências e Governança:** Todas as recomendações de ajuste são apoiadas em dados auditáveis, gravações de ligações e métricas de CRM.
+- **Audit Score™:** O cliente recebe uma nota quantificável de maturidade que permite avaliar o nível de risco da operação (Crítico, Instável, Estruturado, Escalável).
+- **Pacote Executivo:** A entrega consiste em relatórios técnicos, matrizes de riscos comerciais e roadmaps prioritários de 90 dias com ações claras de correção imediata.
 
-## Serviços Ofertados
-1. **Auditoria de Pipeline & ICP:** Análise de leads, qualificação e aderência ao perfil de cliente ideal.
-2. **Auditoria de Condução:** Avaliação de discursos, scripts e abordagem de vendas.
-3. **Auditoria de Gestão:** Análise do modelo de coordenação e ferramentas de controle.
-4. **Auditoria de Retenção & Churn:** Diagnóstico da passagem de bastão para CS e permanência do cliente.
-5. **Consultoria de Implantação:** Apoio de 3 meses para execução das recomendações da auditoria (upsell recorrente).
-6. **Mentorias:** Treinamento pontual de lideranças e equipes de vendas.
-
-## Metodologia de Execução
-Diagnóstico inicial -> Definição de Scores -> Relatório de diagnóstico -> Priorização de ações -> Apresentação de Proposta -> Implantação (se aplicável).
+## Posicionamento de Mercado
+- **Auditoria de Conformidade:** CEOs e Diretores Financeiros contratam a AuditCom para obter laudos imparciais sobre a eficácia comercial de sua equipe.
+- **Metodologia Proprietária:** Venda do Framework e do Índice Audit Score™, removendo a percepção de prestação de serviços comum e elevando o ticket médio de fechamento.
