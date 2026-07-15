@@ -81,10 +81,10 @@ header {
 }
 
 .logo img {
-  height: 56px; /* Aumentado para maior destaque */
+  height: 56px;
   width: auto;
   display: block;
-  mix-blend-mode: screen; /* Transparência inteligente que elimina diferença de cor do fundo */
+  mix-blend-mode: screen; /* Transparência inteligente */
 }
 
 .nav-links {
@@ -105,9 +105,8 @@ header {
   color: var(--color-text-light);
 }
 
-/* Correção de especificidade do botão de agendamento no Header */
 .nav-links a.btn-primary {
-  color: var(--color-bg-dark) !important; /* Texto escuro com legibilidade total */
+  color: var(--color-bg-dark) !important;
   background-color: var(--color-accent);
 }
 
@@ -135,7 +134,7 @@ header {
 
 .btn-primary {
   background-color: var(--color-accent);
-  color: var(--color-bg-dark); /* Texto escuro para legibilidade máxima */
+  color: var(--color-bg-dark); /* Texto escuro */
   box-shadow: 0 4px 15px rgba(0, 168, 120, 0.3);
 }
 
@@ -166,7 +165,7 @@ section {
 .section-title {
   font-size: 32px;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   color: var(--color-text-dark);
 }
 
@@ -174,11 +173,19 @@ section {
   color: var(--color-accent);
 }
 
+.section-subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: var(--color-text-muted);
+  max-width: 600px;
+  margin: 0 auto 60px;
+}
+
 /* Hero Section */
 .hero {
   background: var(--color-bg-dark);
   color: var(--color-text-light);
-  padding: 180px 24px 130px;
+  padding: 180px 24px 110px;
   position: relative;
   overflow: hidden;
 }
@@ -257,8 +264,34 @@ section {
   position: relative;
   z-index: 2;
   display: block;
-  mix-blend-mode: screen; /* Fusão perfeita que remove o fundo da imagem e integra os gráficos ao site */
-  filter: drop-shadow(0 0 25px rgba(0, 168, 120, 0.25)); /* Brilho de projeção */
+  mix-blend-mode: screen; /* Fusão perfeita */
+  filter: drop-shadow(0 0 25px rgba(0, 168, 120, 0.25)); /* Brilho */
+}
+
+/* Frase da Dobra (Consequência do Danilo) */
+.hero-quote-section {
+  background-color: var(--color-bg-dark);
+  padding: 60px 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.hero-quote {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--color-text-light);
+  font-style: italic;
+}
+
+.hero-quote span {
+  color: var(--color-accent);
+  font-weight: 700;
+  font-style: normal;
 }
 
 /* Transição de Blur Suave entre o Hero e o Conteúdo Claro */
@@ -274,7 +307,7 @@ section {
   pointer-events: none;
 }
 
-/* Cards de Auditorias (Flutuantes na Transição) */
+/* Cards de Auditorias (Framework AuditCom) */
 .features-container {
   max-width: 1200px;
   margin: -40px auto 0;
@@ -285,14 +318,14 @@ section {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
 .feature-card {
   background: var(--color-text-light);
   border-radius: var(--radius);
-  padding: 40px 32px;
+  padding: 32px 24px;
   box-shadow: var(--shadow);
   border: 1px solid rgba(0, 0, 0, 0.03);
   position: relative;
@@ -322,14 +355,14 @@ section {
 }
 
 .feature-icon {
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   background: rgba(200, 157, 91, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   color: var(--color-premium);
   transition: var(--transition);
 }
@@ -340,14 +373,147 @@ section {
 }
 
 .feature-card h3 {
-  font-size: 18px;
-  margin-bottom: 16px;
+  font-size: 16px;
+  margin-bottom: 12px;
   color: var(--color-text-dark);
 }
 
 .feature-card p {
   color: var(--color-text-muted);
-  font-size: 13.5px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Seção: O Que é Auditado */
+.checklist-section {
+  background-color: var(--color-bg-light);
+  border-top: 1px solid rgba(0,0,0,0.02);
+}
+
+.checklist-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.checklist-item {
+  background: var(--color-text-light);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-dark);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.01);
+}
+
+.checklist-icon {
+  color: var(--color-accent);
+  display: flex;
+  align-items: center;
+}
+
+/* Seção: Audit Score */
+.score-section {
+  background: var(--color-text-light);
+}
+
+.score-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.score-card {
+  background: var(--color-bg-light);
+  border-radius: var(--radius);
+  padding: 30px 24px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.01);
+  text-align: center;
+  position: relative;
+  transition: var(--transition);
+}
+
+.score-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow);
+  border-color: rgba(0, 168, 120, 0.1);
+}
+
+.score-range {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.score-card.level-critical .score-range { color: #EF4444; }
+.score-card.level-unstable .score-range { color: #F59E0B; }
+.score-card.level-structured .score-range { color: var(--color-premium); }
+.score-card.level-scalable .score-range { color: var(--color-accent); }
+
+.score-level {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+  color: var(--color-text-dark);
+}
+
+.score-desc {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+/* Seção: Governança */
+.governance-section {
+  background-color: var(--color-bg-light);
+  border-top: 1px solid rgba(0,0,0,0.02);
+}
+
+.gov-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.gov-card {
+  background: var(--color-text-light);
+  border-radius: var(--radius);
+  padding: 32px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.02);
+  border-top: 3px solid var(--color-bg-alt);
+  transition: var(--transition);
+}
+
+.gov-card:hover {
+  border-top-color: var(--color-accent);
+  transform: translateY(-5px);
+}
+
+.gov-card h4 {
+  font-size: 14px;
+  color: var(--color-text-dark);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.gov-card p {
+  font-size: 12.5px;
+  color: var(--color-text-muted);
+  line-height: 1.5;
 }
 
 /* Barra de Credibilidade */
@@ -448,7 +614,7 @@ section {
 }
 
 .method-timeline {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 60px auto 0;
   position: relative;
   display: flex;
@@ -467,7 +633,7 @@ section {
 }
 
 .method-step {
-  width: 20%;
+  width: 16%;
   position: relative;
   z-index: 2;
   text-align: center;
@@ -496,15 +662,16 @@ section {
 }
 
 .method-step h4 {
-  font-size: 14px;
+  font-size: 13.5px;
   margin-bottom: 8px;
   color: var(--color-text-dark);
 }
 
 .method-step p {
-  font-size: 11px;
+  font-size: 10.5px;
   color: var(--color-text-muted);
-  padding: 0 10px;
+  padding: 0 4px;
+  line-height: 1.4;
 }
 
 /* Seção Oferta e Garantias */
@@ -580,7 +747,7 @@ section {
 .pricing-desc {
   font-size: 14px;
   color: var(--color-text-muted);
-  max-width: 500px;
+  max-width: 550px;
 }
 
 /* Garantia Card */
@@ -611,6 +778,57 @@ section {
 .guarantee-info p {
   font-size: 12.5px;
   color: rgba(255, 255, 255, 0.7);
+}
+
+/* Seção: Equipe Sócios */
+.team-section {
+  background-color: var(--color-bg-light);
+  border-top: 1px solid rgba(0,0,0,0.02);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.team-card {
+  background: var(--color-text-light);
+  border-radius: var(--radius);
+  padding: 40px 24px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.01);
+  transition: var(--transition);
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow);
+}
+
+.team-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  margin-bottom: 6px;
+}
+
+.team-role {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--color-accent);
+  margin-bottom: 18px;
+}
+
+.team-bio {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  line-height: 1.5;
 }
 
 /* Formulário de Conversão */
@@ -752,11 +970,23 @@ footer {
 /* Responsividade */
 @media (max-width: 1024px) {
   .features-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
   .features-container {
     margin-top: -30px;
+  }
+  .checklist-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .score-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gov-grid {
+    grid-template-columns: 1fr;
   }
   .contact-container {
     grid-template-columns: 1fr;
@@ -786,6 +1016,18 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+  .checklist-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .score-grid {
+    grid-template-columns: 1fr;
+  }
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
   .method-timeline {
     flex-direction: column;
     gap: 32px;
@@ -794,7 +1036,7 @@ footer {
   }
   .method-timeline::before {
     width: 2px;
-    height: 80%;
+    height: 85%;
     left: 44px;
     top: 0;
   }
@@ -820,5 +1062,11 @@ footer {
   .guarantee-card {
     flex-direction: column;
     gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .checklist-grid {
+    grid-template-columns: 1fr;
   }
 }

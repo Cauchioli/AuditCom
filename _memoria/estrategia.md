@@ -1,48 +1,29 @@
 # Planejamento Estratégico e Metas — AuditCom
 
-## Metas do MVP
-- **Validação Rápida:** Executar o plano de 30 dias para fechar os primeiros contratos sem inchaço operacional ou contratação de equipe.
-- **Canal de Aquisição:** Foco total em agendamento direto na agenda do Danilo para reuniões de diagnóstico de 1h30.
-- **Autoridade Consolidada:** Basear o posicionamento comercial nas credenciais dos sócios (+400 empresas atendidas, +150 auditorias realizadas).
+## Metas de Posicionamento e Escala
+- **Validação de Modelo Executivo:** Fechar os primeiros contratos de Auditoria Executiva baseando a abordagem em rigor técnico e governança, não em promessas comerciais.
+- **Estruturação do Time de Sócios:**
+  - **Danilo Dellalibera:** Sócio Executivo. Especialista em Gestão Comercial e Governança de Operações.
+  - **Caíque:** Sócio Especialista. Especialista em Estruturação Comercial, Processos e Performance de Vendas.
+  - **Larissa:** Sócia Especialista. Especialista em Customer Success, Retenção e Inteligência da Base de Clientes.
+  - **Leo:** Inteligência técnica e estratégica.
+- **Canal de Aquisição:** Agendamentos de Diagnóstico Executivo de 90 minutos com o Danilo. A reunião foca em apresentar os riscos da operação atual e os scores iniciais da indústria do cliente.
 
-## Modelo de Precificação
-- **Auditorias Críticas:** R$ 5.000 a R$ 9.000 (sprint curto de diagnóstico).
-- **Otimizações Específicas:** R$ 3.500 a R$ 6.500.
-- **Consultoria de Implantação (Upsell):** R$ 4.000 a R$ 6.000/mês, com contrato de 3 meses.
+## O Ativo Técnico: Audit Score™
+Índice de maturidade que classifica o risco da operação do cliente em 4 níveis:
+- **0–25 | Operação Crítica:** Risco altíssimo de quebra de caixa. Processos inexistentes.
+- **26–50 | Operação Instável:** Alta volatilidade de vendas, equipe desestruturada e CRM maquiado.
+- **51–75 | Operação Estruturada:** Processos documentados, rituais operacionais regulares e metas monitoradas.
+- **76–100 | Operação Escalável:** Previsibilidade, time autônomo, automações integradas e baixíssimo churn.
 
-## Indicadores Comercial B2B Mapeados
-A auditoria analisa e pontua a empresa sobre os seguintes indicadores:
-- Pipeline (fluxo e volume de leads)
-- Condução (conversões e scripts)
-- Gestão (indicadores e ferramentas)
-- CS / Retenção (churn e passagens de bastão)
-- Ticket Médio
-- Permanência (LTV / tempo de contrato)
-- ROI (Retorno sobre Investimento)
-
-## Plano Operacional de 30 Dias
-- **Semana 1:** Mapear e prospectar 30 empresas alvo; agendar e realizar 10 reuniões de diagnóstico.
-- **Semana 2:** Fechar de 1 a 2 contratos de auditoria.
-- **Semana 3:** Executar as auditorias contratadas e documentar a entrega para gerar os primeiros cases de sucesso.
-- **Semana 4:** Repetir o processo de vendas e estruturar a escala técnica do produto.
-
-## Questionário de Qualificação e Ganchos
-
-### Perguntas Gerais
-1. Seu time vende o que você entende?
-2. Quem é o seu melhor vendedor? Por quê?
-3. Você tem capacidade de crescimento de venda hoje?
-4. Sua empresa está no teto de faturamento hoje ou consegue faturar mais?
-
-### Perguntas Específicas para Indústria
-1. **Previsibilidade:** Como você projeta o faturamento dos próximos três meses?
-2. **Dependência de Canais:** Quanto do seu faturamento depende de um único canal ou cliente?
-3. **Gargalo:** Onde o seu processo comercial trava hoje?
-4. **Desconto vs Valor:** Seu time precisa dar muito desconto para fechar contratos?
-5. **Capacidade:** Sua fábrica/operação consegue produzir mais se o comercial vender mais?
-6. **Recorrência:** Qual o modelo de recompra ou recorrência do seu produto?
+## Governança da Auditoria
+Toda análise realizada para o cliente deve ser conduzida sob os seguintes critérios rígidos:
+1. **Evidência:** Laudo gerado apenas com base em dados de ligações e relatórios do CRM, descartando impressões opinativas.
+2. **Indicadores:** Cálculo exato de métricas (CAC, LTV, Win Rate, Ticket Médio, Churn, ROI).
+3. **Impacto Financeiro:** Quantificação monetária de perdas por leads ineficientes ou baixa conversão.
+4. **Prioridade e Complexidade:** Matriz de esforço vs. impacto para implantação das melhorias.
 
 ## Próximos Passos Práticos
-- [ ] Criar template do script de vendas do Danilo utilizando as perguntas de qualificação e as dores da indústria.
-- [ ] Desenvolver a Landing Page (HTML/CSS Vanilla) no padrão Vértice OS contendo a proposta de valor consolidada.
-- [ ] Modelar a base de dados no Supabase para armazenar as métricas dos clientes, diagnósticos e relatórios departamentados.
+- [x] Atualizar a Landing Page com o novo copy executivo de consequência e maturidade.
+- [ ] Detalhar o template do entregável `audit_score_template.md` contendo a fórmula e os sub-critérios de avaliação para os sócios utilizarem nas reuniões de fechamento.
+- [ ] Implementar a estrutura visual do Audit Score™ e Governança no HTML/CSS Vanilla da página pública.
