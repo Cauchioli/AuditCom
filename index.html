@@ -16,11 +16,12 @@
         <img src="logo_horizontal.png" alt="AuditCom Logo">
       </a>
       <nav class="nav-links">
-        <a href="#auditorias">Serviços</a>
-        <a href="#dores">O Gargalo</a>
-        <a href="#metodologia">Como Funciona</a>
-        <a href="#oferta">Oferta</a>
-        <a href="#agendar" class="btn btn-primary">Agendar Diagnóstico</a>
+        <a href="#framework">Framework</a>
+        <a href="#auditado">O Que é Auditado</a>
+        <a href="#score">Audit Score™</a>
+        <a href="#governanca">Governança</a>
+        <a href="#metodologia">Metodologia</a>
+        <a href="#agendar" class="btn btn-primary">Agendar Auditoria</a>
       </nav>
     </div>
   </header>
@@ -29,12 +30,12 @@
   <section class="hero" id="home">
     <div class="hero-grid">
       <div class="hero-content">
-        <div class="hero-tag">Auditoria de Processos e Performance Comercial</div>
-        <h1 class="text-gradient">Faturamento travado entre R$ 150k e R$ 300k porque você ainda é o único que sabe fechar contratos na sua empresa?</h1>
-        <p>Auditamos os processos e a performance comercial do seu time em 7 dias. Cortamos o desperdício com reuniões frias de SDRs terceirizados e estruturamos um pipeline auditável e previsível. Sem teorias ou slides bonitos.</p>
+        <div class="hero-tag">Conformidade e Processos Comerciais</div>
+        <h1 class="text-gradient">Auditoria Comercial para Empresas que Precisam Crescer com Previsibilidade.</h1>
+        <p>A AuditCom identifica os gargalos que limitam o crescimento da sua operação comercial e entrega um plano executivo baseado em indicadores, evidências e prioridades de alto impacto. Desloque suas decisões de opiniões para fatos.</p>
         <div style="display: flex; gap: 16px; flex-wrap: wrap;">
-          <a href="#agendar" class="btn btn-primary">Agendar Diagnóstico Técnico</a>
-          <a href="#metodologia" class="btn btn-premium">Conhecer o Método</a>
+          <a href="#agendar" class="btn btn-primary">Agendar Auditoria Executiva</a>
+          <a href="#framework" class="btn btn-premium">Conhecer o Framework</a>
         </div>
       </div>
       <div class="hero-image-container">
@@ -45,165 +46,305 @@
     <div class="hero-transition-blur"></div>
   </section>
 
-  <!-- Seção 2: Cards de Auditorias (Features) -->
-  <div class="features-container" id="auditorias">
+  <!-- Seção Quote de Consequência (Dobra do Hero) -->
+  <div class="hero-quote-section">
+    <div class="hero-quote">
+      "As empresas não deixam de crescer por falta de vendedores. Elas deixam de crescer porque <span>ninguém identifica onde o dinheiro está vazando</span>."
+    </div>
+  </div>
+
+  <!-- Seção 2: Framework AuditCom -->
+  <section class="features-container" id="framework" style="padding: 100px 24px 60px;">
+    <h2 class="section-title">Framework <span>AuditCom™</span></h2>
+    <p class="section-subtitle">Toda auditoria estratégica é conduzida e estruturada sobre quatro pilares fundamentais da operação comercial B2B.</p>
+    
     <div class="features-grid">
       <div class="feature-card">
         <div class="feature-icon">
-          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 002 2h2a2 2 0 002-2"/>
           </svg>
         </div>
         <h3>Pipeline & ICP</h3>
-        <p>Auditamos a origem real dos seus leads, as taxas de conversão de entrada e se o seu time está prospectando o perfil de cliente ideal ou apenas acumulando contatos sem orçamento.</p>
+        <p>Avaliamos a geração de demanda ativa, os critérios de qualificação de leads, as taxas de conversão de entrada e a previsibilidade real do funil comercial.</p>
       </div>
       
       <div class="feature-card">
         <div class="feature-icon">
-          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/>
           </svg>
         </div>
-        <h3>Condução & Fechamento</h3>
-        <p>Avaliamos as reuniões gravadas e os discursos dos vendedores. Identificamos onde ocorrem as falhas de pitch, perda de timing comercial e contorno fraco de objeções.</p>
+        <h3>Condução Comercial</h3>
+        <p>Analisamos a abordagem prática do time, qualidade dos discursos, contorno de objeções, cadências de follow-up e disciplina na negociação.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon">
-          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/>
           </svg>
         </div>
-        <h3>Gestão, Churn & CS</h3>
-        <p>Analisamos a parametrização do seu CRM, relatórios de acompanhamento dos gerentes e o processo crítico de passagem de bastão del comercial para a equipe de CS e pós-venda.</p>
+        <h3>Gestão Comercial</h3>
+        <p>Auditamos rituais de liderança, higiene e parametrização do CRM, governança operacional, metas de curto prazo e estrutura de tomada de decisão.</p>
       </div>
-    </div>
-  </div>
 
-  <!-- Seção 3: Barra de Credibilidade -->
-  <div class="credibility-bar">
-    <div class="credibility-container">
-      <div class="credibility-item">
-        <div class="credibility-num">+400</div>
-        <div class="credibility-text">Empresas B2B<br>Atendidas</div>
-      </div>
-      <div class="credibility-item">
-        <div class="credibility-num">+150</div>
-        <div class="credibility-text">Auditorias de Vendas<br>Realizadas</div>
-      </div>
-      <div class="credibility-item">
-        <div class="credibility-num">7 Dias</div>
-        <div class="credibility-text">Prazo de Entrega<br>do Diagnóstico</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Seção 4: As Dores B2B -->
-  <section class="pains" id="dores">
-    <div class="pains-container">
-      <div style="text-align: center; margin-bottom: 40px;">
-        <h2 class="section-title">Onde a sua operação comercial está <span>perdendo margem</span>?</h2>
-      </div>
-      
-      <div class="pain-box">
-        <div class="pain-num">01</div>
-        <div class="pain-content">
-          <h3>O Ralo Financeiro do SDR Terceirizado</h3>
-          <p>Você paga um valor fixo mensal alto para uma assessoria de prospecção agendar reuniões. No final do mês, cada reunião morna com decisores sem fit ou sem orçamento custa caro para a sua empresa. O comercial vira um ralo de caixa porque a assessoria é cobrada por volume de reuniões marcadas, não por contratos assinados.</p>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+          </svg>
         </div>
-      </div>
-
-      <div class="pain-box">
-        <div class="pain-num">02</div>
-        <div class="pain-content">
-          <h3>O CRM Maquiado e a Equipe Passiva</h3>
-          <p>Seus vendedores passam mais tempo justificando por que não venderam do que fechando novos clientes. O funil está entupido de "oportunidades quentes" que nunca assinam o contrato. Sem auditoria técnica e sem roteiro padronizado do melhor closer, você fica refém das justificativas de toda segunda-feira.</p>
-        </div>
-      </div>
-
-      <div class="pain-box">
-        <div class="pain-num">03</div>
-        <div class="pain-content">
-          <h3>Faturamento Travado na Capacidade Ociosa</h3>
-          <p>Sua fábrica comercial ou seu time de tecnologia tem capacidade para produzir e entregar mais projetos. A operação funciona, mas a empresa não cresce porque o fluxo comercial depende de indicações e do esforço pessoal dos sócios. Sem um processo auditável, sua empresa bateu no teto de crescimento.</p>
-        </div>
+        <h3>Customer Success</h3>
+        <p>Mensuramos a retenção de clientes, taxas de churn (cancelamento), rotinas de onboarding, planos de expansão e a saúde financeira da carteira ativa.</p>
       </div>
     </div>
   </section>
 
-  <!-- Seção 5: Metodologia -->
+  <!-- Seção 3: O Que é Auditado -->
+  <section class="checklist-section" id="auditado">
+    <h2 class="section-title">O Que é <span>Auditado</span></h2>
+    <p class="section-subtitle">Durante a Avaliação Executiva da AuditCom, analisamos de forma aprofundada mais de 80 pontos críticos da sua operação.</p>
+    
+    <div class="checklist-grid">
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> ICP (Perfil de Cliente)
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> Processo Comercial
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> Pipeline de Vendas
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> Parametrização CRM
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> Acordo de SLA
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> Taxa de Conversão
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> Win Rate (Fechamento)
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> Ticket Médio
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> CAC (Custo Aquisição)
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> LTV (Tempo de Contrato)
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> ROI Comercial
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> Churn Rate (Pós-Venda)
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> Onboarding de Clientes
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> Cadência de Contatos
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> Forecast (Previsões)
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> Rituais de Gestão
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> Dinâmica de Reuniões
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> Roteiros & Scripts
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> Follow-up de leads
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> Indicadores Chave
+      </div>
+      <div class="checklist-item">
+        <span class="checklist-icon">✔</span> Cultura Comercial
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção 4: Audit Score -->
+  <section class="score-section" id="score">
+    <h2 class="section-title">Audit Score™</h2>
+    <p class="section-subtitle">Índice de Maturidade Comercial da AuditCom que serve como ativo de avaliação técnica para a operação de empresas e fundos de investimento.</p>
+    
+    <div class="score-grid">
+      <div class="score-card level-critical">
+        <div class="score-range">0–25</div>
+        <div class="score-level">Operação Crítica</div>
+        <p class="score-desc">Ausência total de processos, dependência exclusiva de indicações, vazamento de caixa ativo e falta de previsibilidade comercial.</p>
+      </div>
+      
+      <div class="score-card level-unstable">
+        <div class="score-range">26–50</div>
+        <div class="score-level">Operação Instável</div>
+        <p class="score-desc">Flutuação de faturamento comercial, equipe dependente de heróis, CRM maquiado e CAC financeiro desalinhado.</p>
+      </div>
+
+      <div class="score-card level-structured">
+        <div class="score-range">51–75</div>
+        <div class="score-level">Operação Estruturada</div>
+        <p class="score-desc">Processos comerciais catalogados, rituais periódicos no CRM e análise de forecast com baixa margem de erro.</p>
+      </div>
+
+      <div class="score-card level-scalable">
+        <div class="score-range">76–100</div>
+        <div class="score-level">Operação Escalável</div>
+        <p class="score-desc">Playbooks validados, automação de aquisição rodando, previsibilidade total de funil e controle estrito sobre churn e CS.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção 5: Governança da Auditoria -->
+  <section class="governance-section" id="governanca">
+    <h2 class="section-title">Governança da <span>Auditoria</span></h2>
+    <p class="section-subtitle">Garantimos que todas as recomendações de transformação comercial não dependam de opiniões pessoais, seguindo critérios técnicos consolidados.</p>
+    
+    <div class="gov-grid">
+      <div class="gov-card">
+        <h4>Evidências de Processo</h4>
+        <p>Todo diagnóstico é baseado estritamente na análise de históricos reais de CRM e gravação de ligações do time comercial.</p>
+      </div>
+      
+      <div class="gov-card">
+        <h4>Indicadores de Negócio</h4>
+        <p>Medição matemática das taxas de eficiência, custos e tempos de contrato da operação (Win Rate, CAC, LTV).</p>
+      </div>
+
+      <div class="gov-card">
+        <h4>Impacto Financeiro</h4>
+        <p>Mapeamento monetário direto indicando exatamente onde estão os maiores gargalos e qual a projeção de perdas mensais.</p>
+      </div>
+
+      <div class="gov-card">
+        <h4>ROI Esperado</h4>
+        <p>As ações de correção são listadas com base na projeção real de retorno sobre o investimento executado pelo cliente.</p>
+      </div>
+
+      <div class="gov-card">
+        <h4>Complexidade de Implantação</h4>
+        <p>Matriz de prioridade avaliando a facilidade de adoção das melhorias pela equipe interna da empresa auditada.</p>
+      </div>
+
+      <div class="gov-card">
+        <h4>Roadmap Executivo</h4>
+        <p>Definição das metas prioritárias divididas cronologicamente para evitar desvio operacional da liderança.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção 6: Metodologia -->
   <section class="methodology" id="metodologia">
     <div style="max-width: 1200px; margin: 0 auto;">
-      <h2 class="section-title">Como funciona o <span>Método AuditCom</span></h2>
+      <h2 class="section-title">Metodologia <span>AuditCom™</span></h2>
+      <p class="section-subtitle">Processo em etapas estruturado para medir, organizar e acelerar os resultados da operação.</p>
       
       <div class="method-timeline">
         <div class="method-step">
           <div class="method-badge">01</div>
           <div class="method-info">
-            <h4>Diagnóstico Técnico</h4>
-            <p>Coleta de métricas e gravações reais de ligações do time comercial.</p>
+            <h4>Diagnosticar</h4>
+            <p>Coleta rigorosa de evidências, rotinas e relatórios.</p>
           </div>
         </div>
         
         <div class="method-step">
           <div class="method-badge">02</div>
           <div class="method-info">
-            <h4>Análise de Scores</h4>
-            <p>Pontuação de performance com base nos 6 pilares de vendas.</p>
+            <h4>Mensurar</h4>
+            <p>Pontuação de maturidade com base no Audit Score™.</p>
           </div>
         </div>
 
         <div class="method-step">
           <div class="method-badge">03</div>
           <div class="method-info">
-            <h4>Manuais de Correção</h4>
-            <p>Entrega de 4 manuais práticos e o plano imediato de Quick Wins.</p>
+            <h4>Priorizar</h4>
+            <p>Matriz de urgência para as correções imediatas.</p>
           </div>
         </div>
 
         <div class="method-step">
           <div class="method-badge">04</div>
           <div class="method-info">
-            <h4>Implantação Assistida</h4>
-            <p>Apoio tático estruturado de 3 meses na execução das melhorias de processo.</p>
+            <h4>Recomendar</h4>
+            <p>Construção dos Manuais Departamentados de ajuste.</p>
+          </div>
+        </div>
+
+        <div class="method-step">
+          <div class="method-badge">05</div>
+          <div class="method-info">
+            <h4>Implantar</h4>
+            <p>Execução assistida e governança das recomendações.</p>
+          </div>
+        </div>
+
+        <div class="method-step">
+          <div class="method-badge">06</div>
+          <div class="method-info">
+            <h4>Monitorar</h4>
+            <p>Acompanhamento de conformidade dos novos scores.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Seção 6: Oferta Irresistível (Sem Preços) -->
+  <!-- Seção 7: O Que Você Recebe (Oferta / Sem Preços) -->
   <section class="offer" id="oferta">
-    <h2 class="section-title">Diagnóstico de Performance <span>Comercial</span></h2>
+    <h2 class="section-title">Avaliação Executiva <span>AuditCom</span></h2>
     <div class="offer-box">
       <div class="offer-header">
-        <h3>O que está incluso no seu diagnóstico</h3>
+        <h3>Ao final da Auditoria Comercial sua empresa recebe:</h3>
       </div>
       <div class="offer-items">
         <div class="offer-item">
-          <span>Auditoria Completa (Pipeline + Condução + Gestão + CS)</span>
-          <span>Incluso no Escopo</span>
+          <span>📄 Relatório Executivo de Auditoria Comercial</span>
+          <span>Incluso no Pacote</span>
         </div>
         <div class="offer-item">
-          <span>Bônus 1: CRM Pronto para Importar (Hubspot / Pipefy)</span>
-          <span>Acesso Gratuito</span>
+          <span>📊 Score Comercial e Técnico de Processo</span>
+          <span>Incluso no Pacote</span>
         </div>
         <div class="offer-item">
-          <span>Bônus 2: Playbook de Objeções e Scripts de Fechamento</span>
-          <span>Acesso Gratuito</span>
+          <span>📈 Score Financeiro e Mapeamento de Churn</span>
+          <span>Incluso no Pacote</span>
         </div>
         <div class="offer-item">
-          <span>Bônus 3: Automação com IA de Pré-Qualificação de Leads (Make/Zapier)</span>
-          <span>Configuração Inclusa</span>
+          <span>🎯 Plano Prioritário de Quick Wins (Correção em 7 dias)</span>
+          <span>Incluso no Pacote</span>
         </div>
         <div class="offer-item">
-          <span>Bônus 4: Call de Alinhamento Técnico de Equipe (60 minutos)</span>
-          <span>Sessão Inclusa</span>
+          <span>📅 Roadmap Executivo de 90 dias para Liderança</span>
+          <span>Incluso no Pacote</span>
+        </div>
+        <div class="offer-item">
+          <span>⚠ Matriz de Riscos Comerciais e Operacionais</span>
+          <span>Incluso no Pacote</span>
+        </div>
+        <div class="offer-item">
+          <span>📉 Diagnóstico de Gargalos e Pontos Críticos</span>
+          <span>Incluso no Pacote</span>
+        </div>
+        <div class="offer-item">
+          <span>💰 Projeção de Ganhos Potenciais pós-ajuste</span>
+          <span>Incluso no Pacote</span>
         </div>
       </div>
       <div class="offer-pricing">
-        <div class="pricing-title">Diagnóstico Sob Demanda</div>
-        <div class="pricing-desc">A complexidade e a profundidade da auditoria são calibradas de acordo com a estrutura da sua equipe e volume operacional atual de vendas. Solicite o contato técnico para alinhar o escopo.</div>
+        <div class="pricing-title">Diagnóstico Executivo Inicial</div>
+        <div class="pricing-desc">A profundidade e o escopo da auditoria são calibrados de acordo com a estrutura da sua equipe e volume de leads. Agende um Assessment com o Danilo para validar a viabilidade técnica.</div>
       </div>
       
       <div class="guarantee-card">
@@ -213,20 +354,45 @@
           </svg>
         </div>
         <div class="guarantee-info">
-          <h4>Dupla Garantia de Entrega e Performance</h4>
-          <p><strong>07 Dias Incondicional:</strong> Se você receber o diagnóstico e achar que a análise e mapeamento técnico não entregam o valor proposto, devolvemos 100% do seu investimento.<br>
-          <strong>De Performance:</strong> Se você aplicar o plano de Quick Wins em 30 dias e não recuperar o valor integral pago na auditoria, reembolsamos você e pagamos mais R$ 1.000,00 de multa pelo tempo perdido.</p>
+          <h4>Garantia de Rigor Técnico e Conformidade</h4>
+          <p><strong>Rigor Técnico Garantido:</strong> Se você receber o laudo de diagnóstico e a matriz de riscos e julgar que o mapeamento de processos não reflete a realidade das evidências e chamadas comerciais auditadas, devolvemos 100% do seu investimento.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Seção 7: Formulário de Conversão -->
+  <!-- Seção 8: Equipe Sócios -->
+  <section class="team-section" id="equipe">
+    <h2 class="section-title">Sócios e <span>Especialistas</span></h2>
+    <p class="section-subtitle">Liderança comercial e técnica por trás do diagnóstico e governança da sua empresa.</p>
+    
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-name">Danilo Dellalibera</div>
+        <div class="team-role">Sócio Executivo</div>
+        <p class="team-bio">Especialista em Gestão Comercial B2B, análise de performance corporativa e governança em operações complexas de vendas de campo e tecnologia.</p>
+      </div>
+      
+      <div class="team-card">
+        <div class="team-name">Caíque</div>
+        <div class="team-role">Sócio Especialista</div>
+        <p class="team-bio">Especialista em estruturação de processos comerciais B2B, playbooks de condução de vendas, scripts de fechamento e conformidade de pipeline.</p>
+      </div>
+
+      <div class="team-card">
+        <div class="team-name">Larissa</div>
+        <div class="team-role">Sócia Especialista</div>
+        <p class="team-bio">Especialista em Customer Success, rotinas de passagem de bastão (handover), controle de taxas de churn e inteligência de base ativa de clientes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção 9: Formulário de Conversão -->
   <section class="contact" id="agendar">
     <div class="contact-container">
       <div class="contact-info">
         <h3>Pare de adivinhar onde o seu comercial falha.</h3>
-        <p>Em uma call técnica de 90 minutos direto com o Danilo — que coordenou e realizou mais de 150 auditorias de vendas —, nós abriremos o seu funil, revisaremos o seu CRM e mapearemos o ralo de caixa da sua prospecção.</p>
+        <p>Em um Assessment Executivo de 90 minutos direto com o Danilo — que coordenou e realizou mais de 150 auditorias de vendas —, nós abriremos o seu funil, revisaremos o seu CRM e mapearemos os riscos da sua prospecção.</p>
         
         <div class="contact-bullets">
           <div class="contact-bullet">
@@ -251,7 +417,7 @@
       </div>
 
       <div class="form-box">
-        <h4>Solicitar Diagnóstico Comercial</h4>
+        <h4>Solicitar Auditoria Comercial</h4>
         <form id="leadForm">
           <div class="form-group">
             <label for="nome">Nome Completo</label>
@@ -289,7 +455,7 @@
             <input type="text" id="gargalo" class="form-input" placeholder="Ex: Dependência de indicações / SDR ruim" required>
           </div>
           
-          <button type="submit" class="btn btn-primary" id="submitBtn">Solicitar Diagnóstico</button>
+          <button type="submit" class="btn btn-primary" id="submitBtn">Solicitar Auditoria</button>
           <div class="form-message" id="formMessage"></div>
         </form>
       </div>
@@ -339,7 +505,7 @@
         if (response.ok) {
           const data = await response.json();
           formMessage.classList.add('success');
-          formMessage.textContent = 'Diagnóstico solicitado com sucesso! Danilo entrará em contato em breve.';
+          formMessage.textContent = 'Auditoria solicitada com sucesso! Danilo entrará em contato em breve.';
           document.getElementById('leadForm').reset();
         } else {
           formMessage.classList.add('error');
@@ -349,7 +515,7 @@
         formMessage.classList.add('error');
         formMessage.textContent = 'Não foi possível se conectar ao servidor do CRM local.';
       } finally {
-        submitBtn.textContent = 'Solicitar Diagnóstico';
+        submitBtn.textContent = 'Solicitar Auditoria';
         submitBtn.disabled = false;
       }
     });
