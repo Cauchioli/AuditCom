@@ -710,9 +710,23 @@ section {
 .offer-item {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 18px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   font-size: 13.5px;
+}
+
+.offer-item-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.offer-item-icon {
+  color: var(--color-accent);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 .offer-item span:first-child {
