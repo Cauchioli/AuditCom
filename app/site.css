@@ -84,7 +84,6 @@ header {
   height: 56px;
   width: auto;
   display: block;
-  mix-blend-mode: screen; /* Transparência inteligente */
 }
 
 .nav-links {
